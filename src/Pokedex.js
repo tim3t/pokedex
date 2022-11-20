@@ -1,5 +1,8 @@
+import Pokecard from './Pokecard';
+import defaultProps from './defaultProps';
+
 const Pokedex = () => {
-	return <h1>Pokedex here</h1>;
+	return <Pokecard name='Charmander' image='imgLink' type='Lizard' />;
 };
 
 export default Pokedex;
